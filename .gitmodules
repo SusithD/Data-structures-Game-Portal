@@ -1,0 +1,16 @@
+[submodule "games/traveling_salesman_game"]
+	path = games/traveling_salesman_game
+	url = https://github.com/SusithD/traveling_salesman_game.git
+	branch = feature-branch
+[submodule "games/tic_tac_toe_game"]
+	path = games/tic_tac_toe_game
+	url = https://github.com/RavinduThennakoon/Tic-Tac-Toe.git
+[submodule "games/knights_tour_game"]
+	path = games/knights_tour_game
+	url = https://github.com/gimz12/knights_tour_game.git
+[submodule "games/tower_of_hanoi_game"]
+	path = games/tower_of_hanoi_game
+	url = https://github.com/OKSamarasinghe/Tower_Of_Hanoi_Game_PDSA2.git
+[submodule "games/eight_queen_game"]
+	path = games/eight_queen_game
+	url = https://github.com/NipulK/eight-queen-game.git
