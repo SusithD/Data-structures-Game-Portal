@@ -26,6 +26,21 @@ matplotlib>=3.0.0
 
 ## Installation
 
+### Important: Cloning the Repository
+
+This project uses git submodules to manage the game components. When cloning the repository, use:
+
+```bash
+# Clone with submodules
+git clone --recurse-submodules https://github.com/SusithD/Data-structures-Game-Portal.git
+```
+
+If you've already cloned the repository without submodules, initialize them with:
+
+```bash
+git submodule update --init --recursive
+```
+
 ### Option 1: Use the provided Virtual Environment (Recommended)
 
 The portal comes with a pre-configured virtual environment that has all the necessary dependencies installed:
@@ -65,6 +80,14 @@ python3 dashboard.py
 ```
 
 The dashboard will display cards for each available game. Click the "START GAME" button on any card to launch that game.
+
+## Updating Game Components
+
+When game projects are updated by contributors (bug fixes or new features), you can pull these updates by running:
+
+```bash
+git submodule update --remote
+```
 
 ## Dependency Management
 
